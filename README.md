@@ -1,3 +1,9 @@
+----- My Guide -----
+Make sure to check if the kernel-header is installed
+`sudo apt-get install linux-headers-$(uname -r)`
+
+
+------ From author -----
 IMPORTANT - PLEASE READ:
 
 Beginning on November 4, 2019, I will NO LONGER support people that have downloaded the source
