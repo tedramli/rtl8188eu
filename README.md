@@ -1,9 +1,22 @@
------ My Guide -----
+Forked from lwfinger
+
+----- My Guide ----- 
+
 Make sure to check if the kernel-header is installed
 `sudo apt-get install linux-headers-$(uname -r)`
 
+Download
+
+`git clone https://github.com/tedramli/rtl8188eu.git`
+
+Compile and Build
+
+`cd rtl8188eu`
+`make all`
+`sudo make install`
 
 ------ From author -----
+
 IMPORTANT - PLEASE READ:
 
 Beginning on November 4, 2019, I will NO LONGER support people that have downloaded the source
